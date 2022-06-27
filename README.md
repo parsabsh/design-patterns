@@ -5,12 +5,12 @@
 # 1) Creational patterns 
 These patterns provide various object creation mechanisms which increase flexibility and reuse of existing code.
 
-## <li> **Singleton**
+## <li> **Singleton***
 When we want only one object of a class during our program.
 > ## **_Structure_** 
 > ![Singleton](https://refactoring.guru/images/patterns/diagrams/singleton/structure-en.png)
 
-## <li> **Prototype**
+## <li> **Prototype***
 When we want to create a new copy of an object.
 > ## **_Structure_** 
 > ![prototype](https://refactoring.guru/images/patterns/diagrams/prototype/structure.png)
@@ -28,7 +28,7 @@ When we want to produce families of related objects without specifying their con
 > ## **_example_** 
 > ![Abstract Factory](https://refactoring.guru/images/patterns/diagrams/abstract-factory/example.png)
 
-## <li> **Factory Method**
+## <li> **Factory Method***
 When we want to create objects in a superclass, but allow subclasses to alter the type of objects that will be created.
 > ## **_Structure_** 
 > ![Factory Method](https://refactoring.guru/images/patterns/diagrams/factory-method/structure.png)
@@ -36,7 +36,7 @@ When we want to create objects in a superclass, but allow subclasses to alter th
 # 2) Structural patterns 
 These patterns explain how to assemble objects and classes into larger structures while keeping these structures flexible and efficient
 
-## <li> **Adapter**
+## <li> **Adapter***
 When we want to allow objects with incompatible interfaces to collaborate
 > ## **_Structure_** 
 > ### Object Adapter
@@ -44,17 +44,17 @@ When we want to allow objects with incompatible interfaces to collaborate
 > ### Class Adapter
 > ![class adapter](https://refactoring.guru/images/patterns/diagrams/adapter/structure-class-adapter.png)
 
-## <li> **Bridge**
+## <li> **Bridge***
 When we want to split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other
 > ## **_Structure_** 
 > ![Bridge](https://refactoring.guru/images/patterns/diagrams/bridge/structure-en.png)
 
-## <li> **Composite**
+## <li> **Composite***
 When we want to compose objects into tree structures and then work with these structures as if they were individual objects
 > ## **_Structure_** 
 > ![Composite](https://refactoring.guru/images/patterns/diagrams/composite/structure-en.png)
 
-## <li> **Decorator**
+## <li> **Decorator***
 When we want to attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors
 > ## **_Structure_** 
 > ![Decorator](https://refactoring.guru/images/patterns/diagrams/decorator/structure.png)
