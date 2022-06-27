@@ -1,5 +1,6 @@
 # **_Classic Design Patterns_**
 ### Source : [refactoring guru](https://refactoring.guru/design-patterns/catalog) <br>
+### Hint : Items with * sign are in the slides.<br>
 <br>
 
 # 1) Creational patterns 
@@ -76,3 +77,33 @@ When we want to provide a substitute or placeholder for another object. A proxy 
 
 # 3) Behavioral patterns 
 These patterns are concerned with algorithms and the assignment of responsibilities between objects.
+
+## <li> **Chain of Responsibility***
+When we want to pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
+> ## **_Structure_** 
+> ![Chain of Responsibility](https://refactoring.guru/images/patterns/diagrams/chain-of-responsibility/structure.png)
+
+## <li> **Command***
+When we want to turn a request into a stand-alone object that contains all information about the request. This transformation lets you pass requests as a method arguments, delay or queue a request’s execution, and support undoable operations.
+> ## **_Structure_** 
+> ![Command](https://refactoring.guru/images/patterns/diagrams/command/structure.png)
+
+## <li> **Iterator***
+When we want to traverse elements of a collection without exposing its underlying representation (list, stack, tree, etc.).
+> ## **_Structure_** 
+> ![Iterator](https://refactoring.guru/images/patterns/diagrams/iterator/structure.png)
+
+## <li> **Mediator***
+When we want to reduce chaotic dependencies between objects. The pattern restricts direct communications between the objects and forces them to collaborate only via a mediator object.
+> ## **_Structure_** 
+> ![Mediator](https://refactoring.guru/images/patterns/diagrams/mediator/structure.png)
+
+## <li> **Momento**
+When we want to save and restore the previous state of an object without revealing the details of its implementation.
+> ## **_Structure_** 
+> ![Momento](https://refactoring.guru/images/patterns/diagrams/memento/structure1.png)
+
+## <li> **Observer***
+When we want to define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
+> ## **_Structure_** 
+> ![Observer](https://refactoring.guru/images/patterns/diagrams/observer/structure.png)
